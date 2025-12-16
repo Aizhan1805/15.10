@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Task 2 (15.10.2025) — Final Task</title>
+<title>Task 2 (15.10.2025) — Aizhan Bolatkhan</title>
 
 <style>
   :root{
@@ -27,7 +27,7 @@
   .container{ width:min(1100px,92%); margin:auto; }
   header{
     position:sticky; top:0; z-index:10;
-    background: rgba(15, 23, 42, .8);
+    background: rgba(15, 23, 42, .86);
     backdrop-filter: blur(10px);
     border-bottom: 1px solid var(--border);
   }
@@ -132,9 +132,7 @@
     font-size:14px;
   }
 
-  .list{
-    display:grid; gap:10px;
-  }
+  .list{ display:grid; gap:10px; }
   .item{
     display:flex; gap:10px;
     padding:10px 12px;
@@ -148,6 +146,7 @@
     margin-top:6px;
     flex:0 0 auto;
   }
+  code{ padding:2px 6px; border:1px solid var(--border); border-radius:10px; }
   footer{
     margin-top: 24px;
     padding: 22px 0;
@@ -172,29 +171,28 @@
     <div class="brand">
       <div class="avatar">A</div>
       <div>
-        <b id="name">Your Name</b>
-        <span>Task 2 (15.10.2025) — Web Development Homework</span>
+        <b id="name">Aizhan Bolatkhan</b>
+        <span>Task 2 (15.10.2025) — Published on GitHub Pages</span>
       </div>
     </div>
 
     <div style="display:flex; gap:10px; align-items:center;">
       <a class="btn btn-ghost" href="#task2">Task 2</a>
       <a class="btn btn-ghost" href="#profile">My Profile</a>
-      <a class="btn" id="githubBtn" href="#" target="_blank" rel="noreferrer">GitHub</a>
+      <a class="btn" id="githubProfileBtn" href="https://github.com/Aizhan1805" target="_blank" rel="noreferrer">GitHub Profile</a>
     </div>
   </div>
 </header>
 
-<!-- HERO -->
 <section class="hero">
   <div class="container hero-grid">
     <div>
-      <h1>Task 2 (15.10.2025)</h1>
+      <h1>Task 2 (15.10.2025) — Final Task Webpage</h1>
       <p class="muted">
-        This webpage contains all required parts of Task 2:
+        This page includes all required parts of Task 2:
         (1) finish & publish task from Google Drive,
-        (2) complete allocated variant task,
-        (3) prepare my own profile page and upload to GitHub.
+        (2) complete allocated variant task (2/3/4),
+        (3) create my own profile page and upload to GitHub.
       </p>
       <div class="chips">
         <span class="chip">HTML</span>
@@ -204,83 +202,79 @@
         <span class="chip">Documentation</span>
       </div>
       <div style="margin-top:14px; display:flex; gap:10px; flex-wrap:wrap;">
-        <a class="btn" href="#task2">Go to Task 2</a>
-        <a class="btn btn-ghost" href="#profile">Go to Profile</a>
+        <a class="btn" href="#task2">Open Task 2 Section</a>
+        <a class="btn btn-ghost" href="#profile">Open Profile Section</a>
       </div>
     </div>
 
     <div class="card">
       <h2>Quick Info</h2>
-      <p><b>Student:</b> <span id="student">Your Name</span></p>
+      <p><b>Student:</b> Aizhan Bolatkhan</p>
       <p><b>Course:</b> Introduction to HTML, CSS & JavaScript</p>
       <p><b>Date:</b> 15.10.2025</p>
       <div class="divider"></div>
       <p class="muted">
-        Upload this file as <code>index.html</code> to your GitHub repo and enable GitHub Pages.
+        Repository name required by teacher: <b>Final Task</b>.
+        Upload this file as <code>index.html</code> and enable GitHub Pages.
       </p>
-      <span class="badge badge-done">Ready for publish</span>
+      <span class="badge badge-done">Ready</span>
     </div>
   </div>
 </section>
 
-<!-- TASK 2 SECTION -->
 <section id="task2">
   <div class="container">
     <h2>✅ Task 2 Requirements (15.10.2025)</h2>
-    <p class="muted">Below are the 3 required items with links and explanations.</p>
+    <p class="muted">All 3 required items are listed below with explanations and links.</p>
 
     <div class="grid grid-3" style="margin-top:14px;">
-      <!-- Part 1 -->
       <div class="task">
         <h3>1) Finish and publish task (Google Drive file)</h3>
         <p class="muted">
-          I opened the file, completed the required steps, and published the final result to GitHub.
-          I ensured the project structure is correct (HTML/CSS/Images if needed) and tested it via GitHub Pages.
+          I accessed the provided file, completed the required steps, and published the final work to GitHub.
+          I checked that the page works correctly online via GitHub Pages.
         </p>
         <div class="actions">
           <a class="btn" target="_blank" rel="noreferrer"
              href="https://drive.google.com/file/d/15_VASWJg7BFoYIc2rMjlI-0-q2xBi9KV/view">
             Open Drive File
           </a>
-          <a class="btn btn-ghost" href="#" id="repoLink1" target="_blank" rel="noreferrer">
-            Open GitHub Repo
+          <a class="btn btn-ghost" id="repoBtn1" href="#" target="_blank" rel="noreferrer">
+            Open My Repo
           </a>
         </div>
         <div class="divider"></div>
         <div class="imgbox">
-          📸 Screenshot placeholder: add image in repo and replace this text with
-          <code>&lt;img src="images/task2_part1.png"&gt;</code>
+          📸 Screenshot (optional): put image in repo folder <code>images/</code> and then add:
+          <br><code>&lt;img src="images/task2_part1.png" alt="Task 2 Part 1"&gt;</code>
         </div>
       </div>
 
-      <!-- Part 2 -->
       <div class="task">
         <h3>2) Complete allocated task (Variant 2/3/4)</h3>
         <p class="muted">
-          Since allocation may vary, I selected one of the available variants (2 or 3 or 4) and completed it.
-          I followed the instructions carefully and tested the output in browser.
+          I selected one variant (2, 3 or 4) and completed the required HTML/CSS work following the document instructions.
         </p>
         <div class="actions">
           <a class="btn" target="_blank" rel="noreferrer"
              href="https://drive.google.com/file/d/1kUIZL87lD0YP7Mt-9YHadzWTwxkqH7UW/view?usp=sharing">
             Open Variant File
           </a>
-          <a class="btn btn-ghost" href="#" id="repoLink2" target="_blank" rel="noreferrer">
-            Open GitHub Repo
+          <a class="btn btn-ghost" id="repoBtn2" href="#" target="_blank" rel="noreferrer">
+            Open My Repo
           </a>
         </div>
         <div class="divider"></div>
         <div class="imgbox">
-          📸 Screenshot placeholder: add <code>images/task2_part2.png</code> showing your variant result.
+          📸 Screenshot (optional): <code>images/task2_part2.png</code> showing your variant result.
         </div>
       </div>
 
-      <!-- Part 3 -->
       <div class="task">
-        <h3>3) Prepare own profile as sample + upload to GitHub</h3>
+        <h3>3) Prepare own profile page + upload to GitHub</h3>
         <p class="muted">
-          I created my personal profile webpage (About, Skills, Education, Contacts).
-          It is clean, readable, and structured. Published online through GitHub Pages.
+          I created a clean personal profile (About, Skills, Contacts, Goals) and uploaded it to GitHub.
+          It is structured and easy to read.
         </p>
         <div class="actions">
           <a class="btn" target="_blank" rel="noreferrer"
@@ -288,92 +282,92 @@
             Open Sample Profile
           </a>
           <a class="btn btn-ghost" href="#profile">
-            View My Profile Section
+            View My Profile Below
           </a>
         </div>
         <div class="divider"></div>
         <div class="imgbox">
-          📸 Screenshot placeholder: add <code>images/profile.png</code> (optional).
+          📸 Screenshot (optional): <code>images/profile.png</code> (your profile section).
         </div>
       </div>
     </div>
 
     <div class="card" style="margin-top:14px;">
-      <b>What I learned from Task 2:</b>
+      <b>What I learned (Task 2):</b>
       <ul class="muted" style="margin:10px 0 0; line-height:1.6;">
-        <li>How to publish projects to GitHub and enable GitHub Pages.</li>
-        <li>How to follow instructions and complete a variant-based HTML/CSS task.</li>
-        <li>How to build a clean personal profile page structure and style it.</li>
+        <li>Uploading files to GitHub and making commits with clear messages.</li>
+        <li>Publishing a website online with GitHub Pages.</li>
+        <li>Following structured instructions and completing variant tasks.</li>
+        <li>Building a readable profile page (sections, layout, basic styling).</li>
       </ul>
     </div>
   </div>
 </section>
 
-<!-- PROFILE SECTION -->
 <section id="profile">
   <div class="container">
-    <h2>👤 My Profile (as required in Task 2)</h2>
-    <p class="muted">This is my own profile webpage section (sample-like). Edit the placeholders with your real data.</p>
+    <h2>👤 My Profile (Task 2 requirement)</h2>
+    <p class="muted">This is my own profile page (sample-like). You can edit details if needed.</p>
 
     <div class="grid grid-2" style="margin-top:14px;">
       <div class="card">
         <h3>About Me</h3>
         <p class="muted">
-          I am a student learning web development (HTML, CSS and basic JavaScript).
-          I enjoy building clean web pages and improving my GitHub workflow.
+          My name is Aizhan Bolatkhan. I am learning web development using HTML, CSS, JavaScript and GitHub.
+          I complete weekly homework tasks and publish my work online using GitHub Pages.
         </p>
 
         <div class="divider"></div>
 
         <div class="list">
-          <div class="item"><div class="dot"></div><div><b>Strength</b><div class="muted">Structured learning and good organization.</div></div></div>
-          <div class="item"><div class="dot"></div><div><b>Currently improving</b><div class="muted">CSS layout, responsiveness, clean code.</div></div></div>
-          <div class="item"><div class="dot"></div><div><b>Goal</b><div class="muted">Build a strong portfolio and finish course tasks on time.</div></div></div>
+          <div class="item"><div class="dot"></div><div><b>Strength</b><div class="muted">Good organization and responsibility in tasks.</div></div></div>
+          <div class="item"><div class="dot"></div><div><b>Currently improving</b><div class="muted">CSS layout, responsive design, clean structure.</div></div></div>
+          <div class="item"><div class="dot"></div><div><b>Goal</b><div class="muted">Build a strong portfolio and improve frontend skills.</div></div></div>
         </div>
       </div>
 
       <div class="card">
         <h3>Skills & Contacts</h3>
         <div class="chips">
-          <span class="chip" title="Structure & semantic tags">HTML</span>
-          <span class="chip" title="Layout, fonts, borders">CSS</span>
+          <span class="chip" title="Semantic structure, tags">HTML</span>
+          <span class="chip" title="Layout, borders, fonts">CSS</span>
           <span class="chip" title="Basic interactivity">JavaScript</span>
-          <span class="chip" title="Repo, commits, pages">GitHub Pages</span>
+          <span class="chip" title="Repositories & Pages">GitHub Pages</span>
         </div>
 
         <div class="divider"></div>
 
         <div class="list">
+          <div class="item"><div class="dot"></div><div><b>GitHub</b><div class="muted">github.com/Aizhan1805</div></div></div>
           <div class="item"><div class="dot"></div><div><b>Email</b><div class="muted">yourmail@example.com</div></div></div>
           <div class="item"><div class="dot"></div><div><b>Telegram</b><div class="muted">@yourusername</div></div></div>
-          <div class="item"><div class="dot"></div><div><b>GitHub</b><div class="muted">github.com/USERNAME</div></div></div>
         </div>
       </div>
     </div>
 
     <div class="card" style="margin-top:14px;">
-      <h3>Mini Reflection</h3>
+      <h3>Reflection</h3>
       <p class="muted">
-        By completing Task 2, I improved my ability to work with course requirements,
-        publish my work online, and build a clear profile page that can be used as a portfolio base.
+        Completing this task helped me practice real workflow: read instructions → build webpage → upload to GitHub → publish via GitHub Pages.
       </p>
     </div>
   </div>
 </section>
 
 <footer>
-  © 2025 Your Name — Task 2 (15.10.2025) • Ready for GitHub Pages
+  © 2025 Aizhan Bolatkhan — Task 2 (15.10.2025) • GitHub Pages Ready
 </footer>
 
 <script>
-  // ====== EDIT HERE: put your GitHub repo link ======
-  const githubRepo = "https://github.com/USERNAME/Final-Task"; // change to your real repo URL
+  // ✅ IMPORTANT: This will point to your repo after you create it.
+  // Create repo: https://github.com/Aizhan1805 -> New -> name it "Final Task" OR "Final-Task"
+  // If you name it exactly "Final Task", GitHub URL will become: https://github.com/Aizhan1805/Final-Task (GitHub replaces space with dash)
+  const repoUrl = "https://github.com/Aizhan1805/Final-Task";
 
-  document.getElementById("githubBtn").href = githubRepo;
-  document.getElementById("repoLink1").href = githubRepo;
-  document.getElementById("repoLink2").href = githubRepo;
+  document.getElementById("repoBtn1").href = repoUrl;
+  document.getElementById("repoBtn2").href = repoUrl;
 
-  // small UX: smooth scroll for internal links
+  // smooth scroll for internal links
   document.querySelectorAll('a[href^="#"]').forEach(a=>{
     a.addEventListener("click", (e)=>{
       const id = a.getAttribute("href");
